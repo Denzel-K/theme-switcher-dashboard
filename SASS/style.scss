@@ -1,0 +1,119 @@
+@forward 'typography';
+@forward 'boilerplate';
+
+@import 'https://fonts.google.com/specimen/Inter';
+
+
+.head-box {
+    display: flex;
+    margin: 0;
+    
+    @media (max-width:1440px) {
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    @media (max-width:560px) {
+        flex-direction:column;
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.grid_light {
+    display: grid;
+    padding: 10px;
+     
+    @media (max-width: 1440px) {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns:1fr 1fr 1fr 1fr; 
+    }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns:1fr 1fr; 
+    }
+    @media (max-width: 560px) {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr; 
+    }
+
+    .box_light {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        justify-content: space-around;
+        background-color:  hsl(227, 47%, 94%);
+        padding: 18px;
+        border-radius: 8px;
+    }
+}
+
+.grid_a .box:nth-child(1) {
+    border-top: 4px solid hsl(208, 92%, 53%);
+}
+.grid_a .box:nth-child(2) {
+    border-top: 4px solid hsl(203, 89%, 53%);
+}
+.grid_a .box:nth-child(3) {
+    border-top: 4px solid;
+}
+.grid_a .box:nth-child(4) {
+    border-top: 4px solid hsl(348, 97%, 39%);
+}
+
+
+.grid_a .box div:nth-child(1) {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    color: hsl(228, 12%, 44%);
+
+    span:nth-child(2) {
+        margin-left: 8px;
+    }
+}
+.grid_a .box div:nth-child(2) {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+} 
+.grid_a .box div:nth-child(3) span {
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin-right: 6px;
+    }
+}
+
+
+.grid_b .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        width: 100%;
+        padding: 10px 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
+
+
+    
+
