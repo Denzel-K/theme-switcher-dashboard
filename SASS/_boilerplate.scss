@@ -10,4 +10,19 @@ html {
  }
  body {
     font-family: 'inter', sans-serif;
+    @media (max-width: 1440px) {
+        padding: 0 48px;
+    }
+    @media (max-width: 768px) {
+        padding: 0 20px;
+    }
+    @media (max-width: 560px) {
+        padding: 0 10px;
+    }
+}
+.body_dark {
+    background-color: hsl(230, 17%, 14%);
+}
+footer {
+    padding: 20px 0;
 }

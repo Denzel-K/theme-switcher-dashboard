@@ -1,8 +1,28 @@
-@import 'https://fonts.google.com/specimen/Inter';
 
 h2, h3 {
-    color: hsl(230, 17%, 14%);
     font-weight: 700;
+}
+.modes {
+    font-weight: 600;
+    color:hsl(228, 12%, 44%);
+}
+.modes_dark {
+    color:hsl(228, 34%, 66%);
+}
+.light_a {
+    color:hsl(230, 17%, 14%);
+}
+.light_b, .light_c {
+    color:hsl(228, 12%, 44%);
+}
+.dark_a {
+    color:hsl(0, 0%, 100%);
+}
+.dark_b {
+    color:hsl(228, 34%, 66%)
+}
+.dark_c {
+    color:hsl(0, 0%, 100%);
 }
 .attribution { 
     font-size: 16px;
@@ -13,14 +33,24 @@ h2, h3 {
 }
 .properties {
     text-transform: uppercase;
-    color: hsl(228, 12%, 44%);
     font-size: 14px;
     letter-spacing: 0.3rem;
+}
+.properties_light {
+    color: hsl(228, 12%, 44%);
+}
+.properties_dark {
+    color: hsl(228, 34%, 66%);
 }
 .values {
     font-size: 50px;
     font-weight: 700;
+}
+.values_light {
     color: hsl(230, 17%, 14%);
+}
+.values_dark {
+    color: hsl(0, 0%, 100%);
 }
 .grid_a .box:nth-child(1) div:nth-child(3) span {
     color:  hsl(163, 72%, 41%);
@@ -39,14 +69,18 @@ h2, h3 {
     font-weight: 600;
 }
 
-.grid_b .box {
-    div:nth-child(1) {
-        span:nth-child(1) {
-            color:hsl(228, 12%, 44%);
-        }
-    }
+.prop2_light {
+    color: hsl(228, 12%, 44%);
 }
-
+.prop2_dark {
+    color: hsl(228, 34%, 66%);
+}
+.val2_light {
+    color:hsl(230, 17%, 14%);
+}
+.val2_dark {
+    color: hsl(0, 0%, 100%);
+}
 
 .grid_b .box {
     div:nth-child(2) {
@@ -55,7 +89,6 @@ h2, h3 {
         span:nth-child(1) {
             font-size: 32px;
             font-weight: 700;
-            color:hsl(230, 17%, 14%);
         }
         span:nth-child(2) {
             font-weight: 600;
