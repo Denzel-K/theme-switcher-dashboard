@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend mentor](https://your-solution-url.com)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/theme-switcher-dashboard-3eGsz-iTxH)
 
 ## My process
 
