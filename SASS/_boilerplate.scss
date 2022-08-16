@@ -10,6 +10,8 @@ html {
  }
  body {
     font-family: 'inter', sans-serif;
+    background-color: hsl(0, 0%, 99%);
+
     @media (max-width: 1440px) {
         padding: 0 48px;
     }

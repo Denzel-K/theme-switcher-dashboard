@@ -46,11 +46,11 @@
             margin-left: 16px;
 
             @media(max-width: 1440px) {
-                width: 70px;
+                width: 62px;
                 height: 30px;
             }
             @media(max-width: 560px) {
-                width: 70px;
+                width: 62px;
                 height: 30px;
             }
         }
@@ -104,7 +104,7 @@
             height: 26px;
             border-radius: 50%;
             background-color: hsl(230, 17%, 14%);
-            margin-left: 40px;
+            margin-left: 32px;
         }
     }
 }
@@ -150,7 +150,7 @@ main {
     border-top: 4px solid hsl(203, 89%, 53%);
 }
 .grid_a .box:nth-child(3) {
-    border-top: 4px solid;
+    border-top: 4px solid hsl(330, 70%, 68%);
 }
 .grid_a .box:nth-child(4) {
     border-top: 4px solid hsl(348, 97%, 39%);
@@ -212,8 +212,16 @@ main {
 .box_light {
     background-color: hsl(227, 47%, 94%);
 }
+.box_light:hover {
+    cursor: pointer;
+    background-color: hsl(227, 47%, 92%);
+} 
+
 .box_dark {
     background-color: hsl(228, 28%, 20%);
+}
+.box_dark:hover {
+    background-color: hsl(228, 28%, 26%);
 }
 
     
