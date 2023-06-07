@@ -6,7 +6,7 @@
     display: flex;
     margin: 0;
     
-    @media (max-width:1440px) {
+    @media (max-width:2040px) {
         flex-direction:row;
         justify-content: space-between;
     }
@@ -20,7 +20,7 @@
     .theme-switch {
         padding: 16px;
         
-        @media (max-width: 1440px) {
+        @media (max-width: 2040px) {
             width: 25%;
             display: flex;
             flex-direction: row;
@@ -45,7 +45,7 @@
             position: relative;
             margin-left: 16px;
 
-            @media(max-width: 1440px) {
+            @media(max-width: 2040px) {
                 width: 62px;
                 height: 30px;
             }
@@ -117,7 +117,7 @@ main {
     display: grid;
     padding: 10px;
      
-    @media (max-width: 1440px) {
+    @media (max-width: 2040px) {
         display: grid;
         grid-gap: 1.4rem;
         grid-template-columns:1fr 1fr 1fr 1fr; 
