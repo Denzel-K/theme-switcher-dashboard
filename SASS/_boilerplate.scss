@@ -11,10 +11,8 @@ html {
  body {
     font-family: 'inter', sans-serif;
     background-color: hsl(0, 0%, 99%);
+    padding: 0 48px;
 
-    @media (max-width: 2560px) {
-        padding: 0 48px;
-    }
     @media (max-width: 768px) {
         padding: 0 20px;
     }

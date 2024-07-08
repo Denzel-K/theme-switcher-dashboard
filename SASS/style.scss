@@ -5,11 +5,9 @@
 .head-box {
     display: flex;
     margin: 0;
-    
-    @media (max-width:2560px) {
-        flex-direction:row;
-        justify-content: space-between;
-    }
+    flex-direction:row;
+    justify-content: space-between;
+
     @media (max-width:768px) {
         flex-direction:column;
     }
@@ -18,14 +16,12 @@
     }
 
     .theme-switch {
-        padding: 16px;
-        
-        @media (max-width: 2560px) {
-            width: 25%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
+        padding: 16px;     
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
         @media (max-width: 768px) {
             width: 100%;
             display: flex;
@@ -44,11 +40,9 @@
         .switch {
             position: relative;
             margin-left: 16px;
+            width: 62px;
+            height: 30px;
 
-            @media(max-width: 2560px) {
-                width: 62px;
-                height: 30px;
-            }
             @media(max-width: 560px) {
                 width: 62px;
                 height: 30px;
@@ -116,12 +110,10 @@ main {
 .grid {
     display: grid;
     padding: 10px;
-     
-    @media (max-width: 2560px) {
-        display: grid;
-        grid-gap: 1.4rem;
-        grid-template-columns:1fr 1fr 1fr 1fr; 
-    }
+    display: grid;
+    grid-gap: 1.4rem;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+
     @media (max-width: 768px) {
         display: grid;
         grid-gap: 1.2rem;
@@ -223,6 +215,3 @@ main {
 .box_dark:hover {
     background-color: hsl(228, 28%, 26%);
 }
-
-    
-
